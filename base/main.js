@@ -26,7 +26,6 @@ require.config({
     }
 });
 require(["jquery", "observer", "init"], function ($, observer, init) {
-    // init.start();
-    // init.initFuncs();
-    console.log("111");
+    console.log("init loaded "+new Date());
+    init.initFuncs();
 });
