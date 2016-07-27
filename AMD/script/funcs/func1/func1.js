@@ -1,4 +1,4 @@
-define(["jquery"],function($){
+define(["jquery","layerShow"],function($,layer){
 //私有方法、属性
 function _show(){
 
@@ -8,6 +8,8 @@ function _show(){
      //初始化、属性方法、事件绑定
      load:function(){
        console.log("func1 loaded "+new Date());
+      // setTimeout(layer.alert("22"),1000);
+
      }
    };
    return module;

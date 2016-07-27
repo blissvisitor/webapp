@@ -8,8 +8,8 @@ define(["jquery","appContext"],function($,appContext){
     },
    initFuncs:function(){
      require([
-       "../script/funcs/func1/func1",
-       "../script/funcs/func2/func2"],function(func1,func2){
+       "script/funcs/func1/func1",
+       "script/funcs/func2/func2"],function(func1,func2){
        func1.load();
        func2.load();
      })
