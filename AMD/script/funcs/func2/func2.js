@@ -1,4 +1,4 @@
-define(["jquery"],function($){
+define(function(){
 //私有方法、属性
 function _show(){
 

@@ -1,10 +1,10 @@
 define(["jquery","appContext"],function($,appContext){
   //私有方法、属性
-
+  "use strict";
   //公有属性、方法
   var module={
     init:function(){
-
+        module.initFuncs();
     },
    initFuncs:function(){
      require([
