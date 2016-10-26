@@ -37,8 +37,12 @@ require(["jquery", "init"], function($, init) {
 //   base: '' //设定扩展的Layui组件的所在目录，一般用于外部组件扩展
 // });
 layui.all(function() {
-    var layer = layui.layer,
+    var layer = layui.layer,//弹出框
         laytpl = layui.laytpl,
-        laypage = layui.laypage,
-        laydate = layui.data
+        laypage = layui.laypage,//分页
+        laydate = layui.data;//日期控件
+        // 页面中有许多元素需要自动去完成一些处理，譬如导航菜单的小滑块、
+        // Tab的切换等操作，他们往往不需要去单独调用一个方法来开启一项功能，而页面上恰恰有太多这样的小交互，
+        // 所以我们统一归类为element组件。跟表单一样，基于元素属性和事件驱动的接口书写方式。
+        layElement=layui.element();
 });
