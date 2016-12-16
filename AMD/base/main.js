@@ -41,6 +41,7 @@ layui.all(function() {
         laytpl = layui.laytpl,
         laypage = layui.laypage,//分页
         laydate = layui.data;//日期控件
+        layedit=layui.layedit;
         // 页面中有许多元素需要自动去完成一些处理，譬如导航菜单的小滑块、
         // Tab的切换等操作，他们往往不需要去单独调用一个方法来开启一项功能，而页面上恰恰有太多这样的小交互，
         // 所以我们统一归类为element组件。跟表单一样，基于元素属性和事件驱动的接口书写方式。
